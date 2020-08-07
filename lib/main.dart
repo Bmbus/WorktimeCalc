@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'WorktimeCalc',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.lightBlue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Worktime Calculator'),
@@ -29,8 +29,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
   void _addWorktime() {
     
   }
@@ -47,127 +45,155 @@ class _MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1, 
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Januar")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Februar")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("März")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("April")), color: Colors.grey[300],),
+           Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Mai")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Juni")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Juli")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("August")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("September")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Oktober")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Januar"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("November")), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("November"),),
               ),
             ),
             Padding(
               padding: EdgeInsets.all(3),
             ),
-            Flexible(
-              child: FractionallySizedBox(
-                widthFactor: 1,
-                heightFactor: 0.9,
-                child: Container(child: Center(child: Text("Dezember"),), color: Colors.grey[300],),
+            Expanded(
+              child: Container(
+                height: 500,
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.all(Radius.circular(13.0))
+                ),
+                child: Center(child: Text("Dezember"),),
               ),
-            )
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(child: Icon(Icons.add),),
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.add)),
     );
   }
 }
