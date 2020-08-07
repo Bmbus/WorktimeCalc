@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,10 +31,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+  void _addWorktime() {
+    
   }
 
   @override
@@ -41,21 +41,133 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
+      body: Container(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'Widgets für die einzlenen monate',
+          children: [
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1, 
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Januar")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Februar")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("März")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("April")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Mai")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Juni")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Juli")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("August")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("September")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Oktober")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("November")), color: Colors.grey[300],),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(3),
+            ),
+            Flexible(
+              child: FractionallySizedBox(
+                widthFactor: 1,
+                heightFactor: 0.9,
+                child: Container(child: Center(child: Text("Dezember"),), color: Colors.grey[300],),
+              ),
             )
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter, // TODO open field -> date (now) and time and submit
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.add),),
     );
   }
 }
