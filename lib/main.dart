@@ -3,10 +3,10 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Home());
 }
 
-class MyApp extends StatelessWidget {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   void _addWorktime() {
-    
+
   }
 
   @override
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("Februar"),),
               ),
             ),
             Padding(
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("März"),),
               ),
             ),
             Padding(
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("April"),),
               ),
             ),
             Padding(
@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("Mai"),),
               ),
             ),
             Padding(
@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("Juni"),),
               ),
             ),
             Padding(
@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("Juli"),),
               ),
             ),
             Padding(
@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("August"),),
               ),
             ),
             Padding(
@@ -147,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("September"),),
               ),
             ),
             Padding(
@@ -159,7 +159,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
                 ),
-                child: Center(child: Text("Januar"),),
+                child: Center(child: Text("Oktober"),),
               ),
             ),
             Padding(
@@ -179,7 +179,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Expanded(
               child: Container(
-                height: 500,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.all(Radius.circular(13.0))
@@ -193,7 +192,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(child: Icon(Icons.add)),
+      floatingActionButton: FloatingActionButton(child: Icon(Icons.add)), // TODO https://flutter.dev/docs/cookbook/navigation/navigation-basics
     );
   }
 }
